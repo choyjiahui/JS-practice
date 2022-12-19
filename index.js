@@ -17,7 +17,7 @@ function showUserPosts(id) {
     // console.log(id)
     // console.log(window.location)
     localStorage.setItem("id", id)
-    window.location.href = `${window.location.origin}/user.html`     /*how to route to a new page in vanilla js*/
+    window.location.href = `${window.location.origin}./user.html`     /*how to route to a new page in vanilla js*/
 }
 
 function userHTML(user) {
